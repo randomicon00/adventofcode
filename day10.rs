@@ -20,7 +20,7 @@ fn main() {
         match c {
             SHARP => {
                 asteroids_arr[(index-offset)/5 as usize][index-offset - ((index-offset)/5 as usize)*5] = SHARP;
-                asteroids.push(   (((index-offset)/5 as usize) ,  (((index-offset)/5 as usize)*5)) )
+                asteroids.push(   (((index-offset)/5 as usize) ,  (index-offset - ((index-offset)/5 as usize)*5)) )
             },
             POINT => {
                 asteroids_arr[(index-offset)/5 as usize][index-offset - ((index-offset)/5 as usize)*5] = POINT;
