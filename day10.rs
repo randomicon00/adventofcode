@@ -35,11 +35,13 @@ fn main() {
     
     //Algorithm 
     
+    //Loop over all asteroids (SHARP).
     //Check all diagonals
     //Add one and one  (bottom right)
     //Add one and remove one (bottom left)
     //Add one and remove one (top right)
     //Remove one and add one (top left)
+    //Include 'Add 0.5 and 2' and so on.
     
     /*for i in asteroids_arr.iter() {
         println!("asteroids are: {:?}", i);
