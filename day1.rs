@@ -9,9 +9,9 @@ pub fn fuel_required(mass: usize) -> usize {
   mass/3 - 2
 }
 
+//Tests for the code problem number 1
 #[cfg(test)]
 mod tests {
-    
     use super::*;
     
     #[test]
