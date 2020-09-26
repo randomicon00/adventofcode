@@ -48,6 +48,6 @@ fn main() {
     }*/
     
     for asteroid in asteroids {
-        println!("asteroids location {:?}", asteroid)
+        println!("asteroids location {:?}", asteroid);
     }
 }
