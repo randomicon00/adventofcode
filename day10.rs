@@ -1,3 +1,8 @@
+pub fn compute_visible(asteroid_positions: &[(usize, usize)]) -> usize {
+    0
+}
+
+
 //Algorithm basis is ready
 fn main() {
     const SIZE: usize = 5;
@@ -49,5 +54,6 @@ fn main() {
     
     for asteroid in asteroids {
         println!("asteroids location {:?}", asteroid);
+        
     }
 }
