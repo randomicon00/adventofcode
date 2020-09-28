@@ -1,7 +1,6 @@
-pub fn compute_visible(asteroid_positions: &[(usize, usize)]) -> usize {
+pub fn compute_visible(a_p: &[(usize, usize)]) -> usize {
     0
 }
-
 
 //Algorithm basis is ready
 fn main() {
@@ -24,7 +23,6 @@ fn main() {
         let c = &(c.to_string()[..]);
         match c {
             SHARP => {
-                asteroids_arr[(index-offset)/5 as usize][index-offset - ((index-offset)/5 as usize)*5] = SHARP;
                 asteroids.push(   (((index-offset)/5 as usize) ,  (index-offset - ((index-offset)/5 as usize)*5)) )
             },
             POINT => {
@@ -50,10 +48,45 @@ fn main() {
     
     /*for i in asteroids_arr.iter() {
         println!("asteroids are: {:?}", i);
-    }*/
-    
+    }
     for asteroid in asteroids {
         println!("asteroids location {:?}", asteroid);
+    }*/
+    
+    
+    let two_dim = [[0, 1, 1], [0, 1, 1], [0, 1, 1]];
+    
+    println!("Single elem is {}", &two_dim[2][0]);
+    
+    /*
+    for i in 0..3 {
+        for j in 0..3 {
+            match two_dim[i][j] {
+                1 => println!("I've go a ONE, with coordinates: {} {}", i, j),
+                0 => println!("Not interested by the zero for now..."),
+                _ => println!("IMPOSSIBLE"),
+            }
+        }    
+    }*/
+    
+    let (x, y) = (0, 0);
+    
+    let start = x+1;  //start + 1
+    let end = two_dim.len();
+    //Vertical down - x value is fixed
+    let mut obstacle = false;
+    for j in start..end {
+        
+        match two_dim[0][j]  {
+            1 => if obstacle { println!("Found one hidden value! position: 0, {}", j)},
+            _ => println!(""),
+        }
+        
+        if j == 1 {
+            obstacle = true
+        }
         
     }
+    
+    //Vertical up TODO  
 }
