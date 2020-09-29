@@ -88,5 +88,21 @@ fn main() {
         
     }
     
-    //Vertical up TODO  
+    //Vertical up TODO
+    let two_dim2 = [[0, 1, 1, 1], [0, 1, 1, 1], [0, 1, 1, 1], [0, 1, 1, 1]];
+    let (x2, y2) = (1, 0);
+    let (start2, end2) = (0, 4);
+    let mut obstacle2 = false;
+    for i in (0..y2).rev() {
+        println!("I AM HERE ")
+    }
+    
+    //Diagonal right
+    for x_pos in (x2+1)..end2 {
+        println!("Here you go x:{} y:{}", x_pos, y2 + (x_pos - x2));
+    }
+    //diagonal left
+    for x_pos in (0..x2).rev() {
+        println!("Inversing gives us: {}", x_pos);
+    }    
 }
