@@ -1,3 +1,4 @@
+
 pub fn compute_visible(a_p: &[(usize, usize)]) -> usize {
     0
 }
@@ -53,22 +54,10 @@ fn main() {
         println!("asteroids location {:?}", asteroid);
     }*/
     
-    
     let two_dim = [[0, 1, 1], [0, 1, 1], [0, 1, 1]];
-    
     println!("Single elem is {}", &two_dim[2][0]);
     
-    /*
-    for i in 0..3 {
-        for j in 0..3 {
-            match two_dim[i][j] {
-                1 => println!("I've go a ONE, with coordinates: {} {}", i, j),
-                0 => println!("Not interested by the zero for now..."),
-                _ => println!("IMPOSSIBLE"),
-            }
-        }    
-    }*/
-    
+   
     let (x, y) = (0, 0);
     
     let start = x+1;  //start + 1
@@ -85,16 +74,6 @@ fn main() {
         if j == 1 {
             obstacle = true
         }
-        
-    }
-    
-    //Vertical up TODO
-    let two_dim2 = [[0, 1, 1, 1], [0, 1, 1, 1], [0, 1, 1, 1], [0, 1, 1, 1]];
-    let (x2, y2) = (1, 0);
-    let (start2, end2) = (0, 4);
-    let mut obstacle2 = false;
-    for i in (0..y2).rev() {
-        println!("I AM HERE ")
     }
     
     //Vertical up TODO
@@ -109,17 +88,20 @@ fn main() {
     //Diagonal bottom right
     println!("---------------------------------------");
     for x_pos in (x2+1)..end2 {
-        println!("Diagonal right x,y: ({},{})", x_pos, y2 + (x_pos - x2));
+        //println!("Diagonal right x,y: ({},{})", x_pos, y2 + (x_pos - x2));
+        println!("")
     }
     println!("---------------------------------------");
     //diagonal bottom left
     for x_pos in (0..x2).rev() {
-        println!("Diagonal left x,y: ({},{})", x_pos, y2 + (x2 - x_pos));
-    } 
-    //diagonal top right
-    println!("---------------------------------------");
-    //diagonal top left
-    println!("---------------------------------------");
-    //Other semi diagonals as well
-
+        //println!("Diagonal left x,y: ({},{})", x_pos, y2 + (x2 - x_pos));
+        println!("")
+    }
+    
+    let (x3, y3) = (1, 2);
+    //diagonal top left 
+    for (index, x_pos) in (0..(x3+1)).rev().enumerate() {
+        println!("Diagonal left x,y: ({},{})", x_pos, y3 - index);
+    }
+    //diagonal top right  
 }
