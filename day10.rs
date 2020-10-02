@@ -122,11 +122,39 @@ fn main() {
     // if (x_position - increment*2) < 0 -> return 
     let length = two_dim2.len();
     
-    println!("Here are the possibilities {}", length);
-    println!("Here are the possibilities {}, divide by 2 and substract 1", (length / 2) - 1);
-    println!("which gives the following possiiblities: from 2 to {}", (length / 2) - 1)
+    //println!("Here are the possibilities {}", length);
+    //println!("Here are the possibilities {}, divide by 2 and substract 1", (length / 2) - 1);
+    //println!("which gives the following possiiblities: from 2 to {}", (length / 2) - 1)
     
+    //for increment in 2..(length/2) {
+    //    println!("print all diagonals for: {}", increment);
+    //}
     
-
+    let (x4, y4) = (2, 0);
+    //Diagonal bottom right increment 2
+    println!("Increment y 2--------------------------------");
+    for (i, x_pos) in ((x4+1)..(end2)).enumerate() {
+        
+        let (pos_x, pos_y) = (x_pos, y4 + 2*(i +1)); 
+        
+        if (pos_x >= length || pos_y >= length) {
+            break;
+        } 
+        
+        println!("Bottom right: ({},{})", pos_x, pos_y);
+        println!("");
+    }
+    println!("Increment y 2--------------------------------");
     
+    println!("Increment x 2--------------------------------");
+    for (i, _) in ((x4+1)..(end2)).enumerate() {
+        let (pos_x, pos_y) = (x4 + (i+1)*2, y4 + (i + 1) ); 
+        
+        if (pos_x >= length || pos_y >= length) {
+            break;
+        } 
+        println!("Bottom right: ({},{})", pos_x, pos_y);
+        println!("");
+    }
+    println!("Increment x 2--------------------------------");
 }
