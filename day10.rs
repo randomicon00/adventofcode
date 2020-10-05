@@ -1,6 +1,3 @@
-pub fn compute_visible(a_p: &[(usize, usize)]) -> usize {
-    0
-}
 
 //Algorithm basis is ready
 fn main() {
