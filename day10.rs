@@ -119,8 +119,7 @@ fn main() {
     // if (x_position - increment*2) < 0 -> return 
     let length = two_dim2.len();
     
-    //println!("Here are the possibilities {}", length);
-    //println!("Here are the possibilities {}, divide by 2 and substract 1", (length / 2) - 1);
+    
     //println!("which gives the following possiiblities: from 2 to {}", (length / 2) - 1)
     
     //for increment in 2..(length/2) {
@@ -153,5 +152,4 @@ fn main() {
         println!("Bottom right: ({},{})", pos_x, pos_y);
         println!("");
     }
-    println!("Increment x 2--------------------------------");
 }
