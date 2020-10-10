@@ -11,12 +11,23 @@ they only ever increase or stay the same (like 111123 or 135679).
 fn valid_number(num: u32) -> bool {
     let splitted = format!("{}", num);
     
-    let initial = 0;
     let digits: Vec<u32> = splitted.chars()
                     .map(|x| x.to_string().parse::<u32>().unwrap())
                     .collect();
+    
+    let mut valid = true;
+    for i in 0..(digits.len()-1) {
+        if digits[i] <= digits[i+1] {
+            //valid
+        } else {
+            valid = false;
+            println!("mismatch value: {} <-> {}", digits[i], digits[i+1])
+            break;
+        }
+    }
+    
     println!("{:?}", digits);
-    true
+    valid
 }
 
 fn main() {
@@ -25,5 +36,5 @@ fn main() {
             .map(|x| x.parse::<u32>().unwrap())
             .collect();
             
-    valid_number(puzzle_input[0]);
+    println!("{}", valid_number(125788));
 }
