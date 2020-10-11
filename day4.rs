@@ -6,8 +6,6 @@ Going from left to right, the digits never decrease;
 they only ever increase or stay the same (like 111123 or 135679).
 */
 
-// Puzzle input is 125730-579381
-
 fn valid_number(num: u32) -> bool {
     let splitted = format!("{}", num);
     
