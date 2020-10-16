@@ -1,5 +1,5 @@
 
-//Algorithm basis is ready
+//Advent of code day 10 solution
 fn main() {
     const SIZE: usize = 5;
     let asteroids_pos = "
