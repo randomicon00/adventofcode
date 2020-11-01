@@ -6,7 +6,7 @@
 //For a mass of 100756, the fuel required is 33583.
 
 pub fn fuel_required(mass: usize) -> usize {
-  mass/3 - 2
+  (mass/3) - 2
 }
 
 //Tests for the code problem number 1
