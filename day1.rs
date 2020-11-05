@@ -4,6 +4,7 @@
 //For a mass of 14, dividing by 3 and rounding down still yields 4, so the fuel required is also 2.
 //For a mass of 1969, the fuel required is 654.
 //For a mass of 100756, the fuel required is 33583.
+//Valid & tested solution 
 
 pub fn fuel_required(mass: usize) -> usize {
   (mass/3) - 2
