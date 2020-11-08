@@ -10,8 +10,8 @@ fn main() {
 ...##
 ";
     
-    const SHARP: &str = "#";
-    const POINT: &str = ".";
+    const SHARP = "#";
+    const POINT = ".";
     let mut offset = 0;
     let mut asteroids_arr: [[&str; SIZE]; SIZE] = [[""; SIZE]; SIZE];
     let mut asteroids: Vec<(usize, usize)> = Vec::new(); 
