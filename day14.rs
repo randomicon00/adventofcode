@@ -62,5 +62,5 @@
 */
 
 fn main() {
-  println!("hello world day 14")
+  println!("hello world day 14");
 }
