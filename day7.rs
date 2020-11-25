@@ -13,7 +13,14 @@ Max thruster signal 65210 (from phase setting sequence 1,0,4,3,2):
 3,31,3,32,1002,32,10,32,1001,31,-2,31,1007,31,0,33,
 1002,33,7,33,1,33,31,31,1,32,31,31,4,31,99,0,0,0
 Try every combination of phase settings on the amplifiers. What is the highest signal that can be sent to the thrusters?
+Here, we can count the total number of orbits as follows:
 
+D directly orbits C and indirectly orbits B and COM, a total of 3 orbits.
+L directly orbits K and indirectly orbits J, E, D, C, B, and COM, a total of 7 orbits.
+COM orbits nothing.
+The total number of direct and indirect orbits in this example is 42.
+
+What is the total number of direct and indirect orbits in your map data?
 */
 
 fn main() {
