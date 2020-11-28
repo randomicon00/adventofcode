@@ -153,3 +153,14 @@ fn main() {
         println!("");
     }
 }
+
+//Tests for the code problem number 1
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert!(true)
+    }
+}
