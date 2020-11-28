@@ -154,7 +154,7 @@ fn main() {
     }
 }
 
-//Tests for the code problem number 1
+//Tests for the code problem number 10
 #[cfg(test)]
 mod tests {
     use super::*;
