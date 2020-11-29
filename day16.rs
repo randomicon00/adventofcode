@@ -3,3 +3,13 @@ fn main() {
   println!("Here is the day 16 solution for the advent of code challenge");
 }
 
+//Tests for the code problem number 16
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_fuel_required_input1() {
+        assert_eq!(0, 0);
+    }
+}
