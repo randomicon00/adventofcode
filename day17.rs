@@ -5,3 +5,13 @@
 fn main() {
   println!("Hello world to the advent of code day 17");
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_fuel_required_input1() {
+        assert_eq!(2, 2);
+    }
+}
