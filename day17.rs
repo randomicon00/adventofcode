@@ -11,7 +11,7 @@ mod tests {
     use super::*;
     
     #[test]
-    fn test_fuel_required_input1() {
+    fn test_true() {
         assert_eq!(2, 2);
     }
 }
