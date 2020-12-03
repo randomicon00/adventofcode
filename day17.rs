@@ -4,6 +4,9 @@
 
 fn main() {
   println!("Hello world to the advent of code day 17");
+  
+  let container = Vec::with_capacity(100);
+  
 }
 
 #[cfg(test)]
