@@ -104,3 +104,13 @@ cut -5914
 fn main(){
   println!("advent of code day 22");
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert_eq!(2, 2);
+    }
+}
