@@ -10,3 +10,12 @@ Look around the ship and see if you can find the password for the main airlock.
 fn main() {
   println!("hello world advent of code day 25");
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert_eq!(2, 2);
+    }
+}
