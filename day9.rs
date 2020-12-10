@@ -16,3 +16,12 @@ Once your Intcode computer is fully functional, the BOOST program should report 
 fn main() {
   println!("Day9 of advent of code");
 }
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert!(true);
+    }
+}
