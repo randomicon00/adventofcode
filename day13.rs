@@ -4,3 +4,14 @@
 fn main() {
   println!("advent of code day 13 solution");
 }
+
+//Tests for the code problem number 14
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert!(true)
+    }
+}
