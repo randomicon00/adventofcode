@@ -124,3 +124,13 @@ RX..#.#.#.....#.#.#.#.#.....#.#....GN                                           
 fn main() {
   println!("Hello world advent of code 20");
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert_eq!(2, 2);
+    }
+}
