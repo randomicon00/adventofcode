@@ -5,3 +5,14 @@
 fn main() {
  println!("Advent of code day 21");
 }
+
+//Tests for the code problem number 16
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert_eq!(1, 1);
+    }
+}
