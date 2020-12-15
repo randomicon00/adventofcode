@@ -6,3 +6,12 @@ What is the Y value of the first packet sent to address 255?
 fn main() {
   println!("Day 23 advent of code solution.");
 }
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn test() {
+        assert_eq!(true, true);
+    }
+}
+
