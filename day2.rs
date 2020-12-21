@@ -58,7 +58,10 @@ fn main() {
 mod tests {
     #[test]
     fn test_true() {
+        assert!(true, true);
+    }
+   #[test]
+   fn test_equal() {
         assert_eq!(true, true);
     }
 }
-
