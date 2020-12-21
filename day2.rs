@@ -57,7 +57,7 @@ fn main() {
 #[cfg(test)]
 mod tests {
     #[test]
-    fn test() {
+    fn test_true() {
         assert_eq!(true, true);
     }
 }
