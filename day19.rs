@@ -10,4 +10,10 @@ mod tests {
     fn test_true() {
         assert!(true);
     }
+    #[test]
+    fn test_equality() {
+        assert_eq!(true, true);
+    }
+
 }
+
