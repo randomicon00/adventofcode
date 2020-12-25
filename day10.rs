@@ -1,22 +1,13 @@
-
-//Advent of code day 10 solution
-fn main() {
-    const SIZE: usize = 5;
-    let asteroids_pos = "
-.#..#
-.....
-#####
-....#
-...##
-";
+fn day10_solution(input: &str) {
     
+    const SIZE: usize = 5;
     const SHARP = "#";
     const POINT = ".";
     let mut offset = 0;
     let mut asteroids_arr: [[&str; SIZE]; SIZE] = [[""; SIZE]; SIZE];
     let mut asteroids: Vec<(usize, usize)> = Vec::new(); 
     
-    for (index, c) in asteroids_pos.chars().enumerate() {
+    for (index, c) in input.chars().enumerate() {
         let c = &(c.to_string()[..]);
         match c {
             SHARP => {
@@ -154,13 +145,29 @@ fn main() {
     }
 }
 
+
+//Advent of code day 10 solution
+fn main() {
+    
+    let asteroids_pos = "
+.#..#
+.....
+#####
+....#
+...##
+";
+    
+    day10_solution(asteroiods_pos);
+
+}
+
 //Tests for the code problem number 10
 #[cfg(test)]
 mod tests {
     use super::*;
     
     #[test]
-    fn test_true() {
+    fn test_function() {
         assert!(true)
     }
 }
