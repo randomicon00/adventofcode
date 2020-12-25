@@ -157,7 +157,7 @@ fn main() {
 ...##
 ";
     
-    day10_solution(asteroiods_pos);
+    day10_solution(asteroids_pos);
 
 }
 
