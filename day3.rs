@@ -106,3 +106,15 @@ fn main() {
     }
     println!("distance: {:?}", distance);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_true() {
+        assert_eq!(2, 2);
+    }
+}
+
+
