@@ -8,3 +8,13 @@
 fn main() {
   println!("advent of code day 11");
 }
+
+#[cfg(test)]
+mod tests {
+  use super::*;
+  
+  #[test]
+  fn test_equal() {
+    assert_eq!(1, 1);
+  }
+}
