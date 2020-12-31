@@ -13,7 +13,6 @@ Y .....####.
  9........##
  ";
   
-  
   println!("Advent of code day 19");
 }
 
@@ -29,6 +28,4 @@ mod tests {
     fn test_equality() {
         assert_eq!(true, true);
     }
-
 }
-
