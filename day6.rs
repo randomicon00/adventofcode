@@ -11,7 +11,7 @@ E)J
 J)K
 K)L";
   
-  println!("{}", hello_world);
+  println!("{}", input_map);
 }
 
 #[cfg(test)]
