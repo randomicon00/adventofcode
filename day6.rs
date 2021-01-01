@@ -1,5 +1,16 @@
 fn main() {
-  let hello_world = "hello world".to_string();
+  let input_map = "COM)B
+B)C
+C)D
+D)E
+E)F
+B)G
+G)H
+D)I
+E)J
+J)K
+K)L";
+  
   println!("{}", hello_world);
 }
 
@@ -9,6 +20,11 @@ mod tests {
     
     #[test]
     fn test_true() {
-        assert_eq!(2, 2);
+        assert!(true);
+    }
+  
+    #[test]
+    fn test_equal() {
+        assert_eq!(true, true);
     }
 }
