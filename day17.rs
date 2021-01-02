@@ -8,6 +8,12 @@ fn main() {
   let a: Vec<i32> = input.split(",").map(|input| input.parse::<i32>().unwrap()).collect();
   
   println!("vec length: {}", a.len());
+  
+  for i in 0..a.len() {
+    println!("{}-{}", i, val[i]);
+  }
+  
+  
 }
 
 #[cfg(test)]
