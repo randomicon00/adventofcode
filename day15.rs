@@ -13,4 +13,8 @@ mod tests {
     fn test_true() {
         assert!(true);
     }
+    #[test]
+    fn test_equal() {
+        assert_eq!(true, true);
+    }
 }
