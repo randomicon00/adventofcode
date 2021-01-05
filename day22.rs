@@ -101,8 +101,9 @@ deal with increment 20
 cut -5914
 */
 
-fn main(){
+fn main() { 
   println!("advent of code day 22");
+  let input: [&str; 2] = ["cut -5914", "cut -3581"];
 }
 
 #[cfg(test)]
