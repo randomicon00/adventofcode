@@ -74,4 +74,9 @@ mod tests {
     fn test_true() {
         assert!(true)
     }
+    
+    #[test]
+    fn test_eq() {
+        assert_eq!(true, true)
+    }
 }
