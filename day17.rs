@@ -10,7 +10,7 @@ fn main() {
   println!("vec length: {}", a.len());
   
   for i in 0..a.len() {
-    println!("{}-{}", i, val[i]);
+    println!("Index is: {}- Value at Index is: {}", i, val[i]);
   }
   
   
