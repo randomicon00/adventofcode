@@ -10,10 +10,12 @@ fn main() {
   println!("vec length: {}", a.len());
   
   for i in 0..a.len() {
-    println!("Index is: {}- Value at Index is: {}", i, val[i]);
+    if val[i] >= 0 {
+      println!("Positive Value, Index is: {}- Value at Index is: {}", i, val[i]);  
+    } else {
+      println!("Negative Value, Index is: {}- Value at Index is: {}", i, val[i]);  
+    }
   }
-  
-  
 }
 
 #[cfg(test)]
