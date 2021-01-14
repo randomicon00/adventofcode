@@ -11,6 +11,11 @@ mod tests {
     
     #[test]
     fn test_true() {
-        assert_eq!(true, true);
+        assert!(true);
+    }
+  
+    #[test]
+    fn test_equal() {
+      assert_eq!(true, true);
     }
 }
