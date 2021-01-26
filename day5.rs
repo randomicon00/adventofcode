@@ -2,7 +2,7 @@
 ABCDE
  1002
 
-DE - two-digit opcode,      02 == opcode 2
+ DE - two-digit opcode,      02 == opcode 2
  C - mode of 1st parameter,  0 == position mode
  B - mode of 2nd parameter,  1 == immediate mode
  A - mode of 3rd parameter,  0 == position mode,
@@ -10,7 +10,12 @@ DE - two-digit opcode,      02 == opcode 2
 */
 
 fn main() {
-  println!("Hello day5!");
+  let input = "DE - two-digit opcode,      02 == opcode 2
+ C - mode of 1st parameter,  0 == position mode
+ B - mode of 2nd parameter,  1 == immediate mode
+ A - mode of 3rd parameter,  0 == position mode";
+  println!("Advent of code day 5: 
+    {}", input);
 }
 
 
