@@ -62,7 +62,7 @@
 */
 
 fn main() {
-  println!("hello world day 14");
+  
   
   let input = "29 PQJGK => 4 SRPZP
 6 XKJP, 4 LDSMT => 6 ZVSMJ
@@ -125,6 +125,8 @@ fn main() {
 17 GPBG => 7 RGKB
 4 STCX => 1 HRLWP";
   
+  println!("hello world day 14, 
+    {}", input);
 }
 
 //Tests for the code problem number 14
