@@ -8,9 +8,7 @@ fn main() {
 }
 
 #[cfg(test)]
-mod tests {
-    use super::*;
-    
+mod tests {    
     #[test]
     fn test_true() {
         assert!(true);
