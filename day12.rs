@@ -12,12 +12,12 @@ fn main() {
 <x=6, y=4, z=-10>
 <x=-3, y=-2, z=-4>"
   
-  println!("Advent of code day 11 input is: {}", input);
+  println!("Advent of code day 11 input is: 
+    {}", input);
 }
 
 #[cfg(test)]
 mod tests {
-  use super::*;
   
   #[test]
   fn test_true() {
@@ -25,6 +25,6 @@ mod tests {
   }
   #[test]
   fn test_equal() {
-    assert_eq!(true, true);
+    assert_eq!("equal", "equal");
   }
 }
