@@ -120,4 +120,9 @@ mod tests {
     fn test_true() {
         assert_eq!(true, true);
     }
+    
+    #[test]
+    fn test_equal_numbers() {
+        assert_eq!(1u8, 1u8);
+    }
 }
