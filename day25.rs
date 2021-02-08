@@ -13,9 +13,14 @@ fn main() {
 #[cfg(test)]
 mod tests {
     use super::*;
-    
+     
     #[test]
     fn test_true() {
-        assert_eq!(2, 2);
+        assert_eq!(true);
+    }
+  
+    #[test]
+    fn test_equal() {
+        assert_eq!(true, true);
     }
 }
