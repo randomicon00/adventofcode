@@ -25,6 +25,6 @@ mod tests {
   }
   #[test]
   fn test_equal() {
-    assert_eq!("equal", "equal");
+    assert_eq!(true, true);
   }
 }
