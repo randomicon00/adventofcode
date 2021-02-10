@@ -167,7 +167,11 @@ mod tests {
     use super::*;
     
     #[test]
-    fn test_function() {
-        assert!(true)
+    fn test_true() {
+        assert!(true);
+    }
+    
+    fn test_equal() {
+        assert_eq!(true, true);   
     }
 }
