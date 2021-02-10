@@ -36,3 +36,14 @@ fn main() {
             
     println!("{}", valid_number(125788));
 }
+
+//Tests for the code problem number 4
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_function() {
+        assert!(true)
+    }
+}
