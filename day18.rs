@@ -162,13 +162,19 @@ fn main() {
 #.#######.###.#.#.###########.#.#.#####.#.#.#.#####.###.#.###.#####.#.#.#######.#
 #.........#...#...............#...#.....#...#...N...#.....#..t....#.............#
 #################################################################################";
+  let length = input.chars().count();
+  println!("There are {} characters in the sequence.", length);
+  println!("Displaying the sequence...");
+  for elem in input.chars() {
+    "#" => { println!("Displaying a '#' sign"); }
+    "#" => { println!("Displaying a '.' sign"); }
+    _ => { println!("Wrong character found!!"); }
+  }
   
-  println!("Advent of code day 18 input data:
-      {}", input);
 }
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
     
     #[test]
     fn test_true() {
@@ -176,7 +182,7 @@ mod tests {
     }
     
     #[test]
-    fn test_true() {
+    fn test_equal() {
         assert_eq!(true, true);
     }
 }
