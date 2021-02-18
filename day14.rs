@@ -125,8 +125,13 @@ fn main() {
 17 GPBG => 7 RGKB
 4 STCX => 1 HRLWP";
   
-  println!("hello world day 14, 
+  /*println!("hello world day 14, 
     {}", input);
+  */
+  
+  for (num, line) in input.lines().enumerate() {
+    println!("Day 14, Line number: {}, Line content: {}", num, line);
+  }
 }
 
 //Tests for the code problem number 14
