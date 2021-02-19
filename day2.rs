@@ -64,8 +64,4 @@ mod tests {
    fn test_equal() {
       assert_eq!(true, true);
    }
-   #[test]
-   fn test_equal_results() {
-      assert_eq!(0, 0);
-   }
 }
