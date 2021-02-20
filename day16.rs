@@ -10,16 +10,14 @@ fn display_content(input: &str) {
 
 //Tests for the code problem number 16
 #[cfg(test)]
-mod tests {
-    use super::*;
-    
+mod tests {    
     #[test]
     fn test_true() {
         assert!(true);
     }
     
     #[test]
-    fn test_eq() {
+    fn test_equal() {
         assert_eq!(true, true);
     }
 }
