@@ -130,14 +130,16 @@ fn main() {
   */
   
   for (num, line) in input.lines().enumerate() {
-    println!("Day 14, Line number: {}, Line content: {}", num, line);
+    println!("Day 14 input data:  
+      Line number: {} - 
+      Line content: {}", num, line);
   }
 }
 
 //Tests for the code problem number 14
 #[cfg(test)]
 mod tests {
-    use super::*;
+    //use super::*;
     
     #[test]
     fn test_true() {
@@ -145,7 +147,7 @@ mod tests {
     }
     
     #[test]
-    fn test_eq() {
+    fn test_equal() {
         assert_eq!(true, true);
     }
 }
