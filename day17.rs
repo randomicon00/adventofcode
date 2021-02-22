@@ -20,8 +20,11 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-    
+    #[test]
+    fn test_multiple() {
+        assert!(true);
+        assert!(true);
+    }
     #[test]
     fn test_true() {
         assert!(true);
