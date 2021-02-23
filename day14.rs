@@ -134,12 +134,13 @@ fn main() {
       Line number: {} - 
       Line content: {}", num, line);
   }
+  println!("Solution is: {}", input);
 }
 
 //Tests for the code problem number 14
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
     
     #[test]
     fn test_true() {
