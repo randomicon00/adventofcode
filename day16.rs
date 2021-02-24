@@ -5,7 +5,7 @@ fn main() {
 }
 
 fn display_content(input: &str) {
-  println!("Advent of code day 16 input is:  \n{}", input);
+  println!("Advent of code day 16 input is:  \n{}", input.trim());
 }
 
 //Tests for the code problem number 16
