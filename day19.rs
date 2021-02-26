@@ -19,14 +19,14 @@ Y .....####.
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    
   
     #[test]
     fn test_true() {
         assert!(true);
     }
     #[test]
-    fn test_equal_results() {
+    fn test_equal() {
       assert_eq!(0, 0);
     }
 }
