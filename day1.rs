@@ -6,8 +6,13 @@
 //For a mass of 100756, the fuel required is 33583.
 //Valid & tested solution 
 
-pub fn fuel_required(mass: usize) -> usize {
+fn fuel_required(mass: usize) -> usize {
   (mass/3) - 2
+}
+
+pub fn main() {
+  let mass = 12;
+  println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
 }
 
 //Tests for the code problem number 1
