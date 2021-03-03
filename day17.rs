@@ -21,11 +21,6 @@ fn main() {
 #[cfg(test)]
 mod tests {
     #[test]
-    fn test_multiple() {
-        assert!(true);
-        assert!(true);
-    }
-    #[test]
     fn test_true() {
         assert!(true);
     }
