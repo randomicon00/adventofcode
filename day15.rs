@@ -9,9 +9,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {    
-    //access to input variables one level up the tests module.
-    use super::*;
-    
+        
     #[test]
     fn test_true() {
         assert!(true);
