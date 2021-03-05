@@ -101,9 +101,10 @@ cut 3255
 deal with increment 20
 cut -5914";
  
-  println!("Advent of code day 22:
-      {}", input);
-  
+  for (i, line) in input.lines().enumerate() {
+    println!("Advent of code day 22:
+      line: {}, content: {}", i, line);
+  }
 }
 
 #[cfg(test)]
