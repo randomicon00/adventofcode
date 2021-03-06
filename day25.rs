@@ -8,7 +8,13 @@ carrying items from the environment.
 Look around the ship and see if you can find the password for the main airlock.
 */
 fn main() {
-  println!("hello world advent of code day 25");
+  let input = "data1
+  data2
+  data3";
+  
+  for (num, line) of input.lines().enumerate() {
+    println!("Day 25, line {}, content: {}", num, line);
+  }
 }
 #[cfg(test)]
 mod tests {
