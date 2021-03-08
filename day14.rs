@@ -140,7 +140,6 @@ fn main() {
 //Tests for the code problem number 14
 #[cfg(test)]
 mod tests {
-    use super::*;
     
     #[test]
     fn test_true() {
