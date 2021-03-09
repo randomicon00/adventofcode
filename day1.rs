@@ -18,22 +18,22 @@ pub fn main() {
 //Tests for the code problem number 1
 #[cfg(test)]
 mod tests {
-    use super::*;
+    //use super::*;
     
     #[test]
     fn test_fuel_required_input1() {
         assert_eq!(2, fuel_required(12))
     }
     #[test]
-    fn test_fuel_required_input2() {
+    fn test_fuel_required_input_two() {
         assert_eq!(2, fuel_required(14))
     }
     #[test]
-    fn test_fuel_required_input3() {
+    fn test_fuel_required_input_three() {
         assert_eq!(654, fuel_required(1969))
     }
     #[test]
-    fn test_fuel_required_input4() {
+    fn test_fuel_required_input_four() {
         assert_eq!(33583, fuel_required(100756))
     }
 }
