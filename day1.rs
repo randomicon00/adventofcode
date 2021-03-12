@@ -18,7 +18,7 @@ pub fn main() {
 //Tests for the code problem number 1
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
     
     #[test]
     fn test_fuel_required_input1() {
