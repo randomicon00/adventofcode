@@ -11,7 +11,7 @@ fn main() {
 //Tests for the code problem number 16
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
     
     #[test]
     fn test_true() {
@@ -21,5 +21,10 @@ mod tests {
     #[test]
     fn test_equal() {
         assert_eq!(true, true);
+    }
+ 
+    #[test]
+    fn test_should_output_values() {
+        assert!(false);
     }
 }
