@@ -7,7 +7,7 @@ fn main() {
   
   let res = input.split(",").filter(|val| !val.trim().is_empty());
   for val in res {
-      println!("{}", val);
+      println!("Value is: {}", val);
   } 
 }
 
