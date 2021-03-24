@@ -21,4 +21,9 @@ mod tests {
     fn test_equal() {
       assert_eq!("one", "one");
     }
+    
+    #[test]
+    fn test_display_input() {
+      assert_eq!("input", "input");
+    }
 }
