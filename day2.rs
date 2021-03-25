@@ -5,6 +5,11 @@
 2,4,4,5,99,0 becomes 2,4,4,5,99,9801 (99 * 99 = 9801).
 1,1,1,4,99,5,6,0,99 becomes 30,1,1,4,2,5,6,0,99.*/
 
+fn day2_solution() {
+   println!("Day 2 solution code goes here!");
+}
+
+
 fn main() {
    
     let initial_state = "1,9,10,3,2,3,11,0,99,30,40,50";
@@ -56,6 +61,8 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
+   use super::*;
+   
    #[test]
    fn test_true() {
       assert!(true, true);
