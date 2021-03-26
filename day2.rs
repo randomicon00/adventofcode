@@ -65,7 +65,7 @@ mod tests {
    
    #[test]
    fn test_true() {
-      assert!(true, true);
+      assert!(true);
    }
    #[test]
    fn test_equal() {
