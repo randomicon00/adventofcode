@@ -26,3 +26,14 @@ What is the total number of direct and indirect orbits in your map data?
 fn main() {
   println!("hello day 7 of advent of code");
 }
+
+
+#[cfg(test)]
+mod tests {
+  use super::*;
+  
+  fn test_equal() {
+    assert_eq!(true, true);
+  }
+
+}
