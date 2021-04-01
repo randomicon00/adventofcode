@@ -14,11 +14,12 @@ fn main() {
   
   for (num, line) of input.lines().enumerate() {
     println!("Day 25, line {}, content: {}", num, line);
+    println!("----------------------------------------");
   }
 }
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
      
     #[test]
     fn test_true() {
