@@ -11,6 +11,9 @@ fn display_content(input: &str) {
 //Tests for the code problem number 16
 #[cfg(test)]
 mod tests {    
+    
+    use super::*;
+  
     #[test]
     fn test_true() {
         assert!(true);
