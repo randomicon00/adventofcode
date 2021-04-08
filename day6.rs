@@ -11,7 +11,9 @@ E)J
 J)K
 K)L";
   
-  println!("{}", input_map);
+  for (num, item) in input_map.lines().enumerate() {
+    println!("Number: {} Item content: {}", item);
+  }
 }
 
 #[cfg(test)]
