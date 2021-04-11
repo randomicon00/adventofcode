@@ -167,7 +167,7 @@ fn main() {
   println!("Displaying the sequence...");
   for elem in input.chars() {
     "#" => { println!("Displaying a '#' sign"); }
-    "#" => { println!("Displaying a '.' sign"); }
+    "." => { println!("Displaying a '.' sign"); }
     _ => { println!("Wrong character found!!"); }
   }
   
