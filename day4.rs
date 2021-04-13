@@ -52,4 +52,8 @@ mod tests {
         assert!(true, true);
     }
     
+    #[test]
+    fn test_input() {
+        assert!(true);
+    }
 }
