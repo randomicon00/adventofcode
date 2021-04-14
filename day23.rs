@@ -23,5 +23,10 @@ mod tests {
     fn test_equal() {
         assert_eq!(true, true);
     }
+    
+    #[test]
+    fn test_display_input() {
+      assert!(true)
+    }
 }
 
