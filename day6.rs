@@ -11,6 +11,7 @@ E)J
 J)K
 K)L";
   
+  println!("This is day 6 solution.");
   for (num, item) in input_map.lines().enumerate() {
     println!("Number: {} Item content: {}", item);
   }
