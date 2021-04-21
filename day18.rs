@@ -190,10 +190,6 @@ mod tests {
     fn test_displays_input() {
         assert!(true);
     }
-  
-    #[test]
-    fn test_other_functionality() {
-        assert!(true);
-    }
+ 
   
 }
