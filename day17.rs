@@ -20,7 +20,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    //use super::*;
+    use super::*;
   
     #[test]
     fn test_true() {
