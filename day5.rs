@@ -14,7 +14,7 @@ fn main() {
  C - mode of 1st parameter,  0 == position mode
  B - mode of 2nd parameter,  1 == immediate mode
  A - mode of 3rd parameter,  0 == position mode";
-  println!("Here is the input content for the problem of Advent of code day 5: 
+  println!("Greetings!. Here is the input content for the problem of Advent of code day 5: 
     {}", input);
 }
 
