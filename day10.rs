@@ -171,6 +171,7 @@ mod tests {
         assert!(true);
     }
     
+    #[test]
     fn test_equal() {
         assert_eq!(true, true);   
     }
