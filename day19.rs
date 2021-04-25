@@ -15,6 +15,9 @@ Y .....####.
   
   println!("Advent of code day 19:
       {}", input);
+  for line in input.lines() {
+    println!("{}", line);
+  }
 }
 
 #[cfg(test)]
