@@ -6,9 +6,6 @@ fn main() {
   let input = "What is the biodiversity rating for the first layout that appears twice?";
   println!("Hello world day 24 of the advent of code
      {}", input);
-  
-  println!("The answer will be available here.");
-  println!("Input data needs to be added and displayed here.");
 }
 
 #[cfg(test)]
