@@ -1,3 +1,4 @@
+#![allow(unused_variables)]
 use std::cmp::min;
 
 #[derive(Debug, Copy, Clone)]
