@@ -21,20 +21,25 @@ mod tests {
     use super::*;
     
     #[test]
+    fn test_eq() {
+      assert!(true);
+    }
+  
+    #[test]
     fn test_fuel_required_input1() {
-        assert_eq!(2, fuel_required(12))
+        assert_eq!(2, fuel_required(12));
     }
     #[test]
     fn test_fuel_required_input_two() {
-        assert_eq!(2, fuel_required(14))
+        assert_eq!(2, fuel_required(14));
     }
     #[test]
     fn test_fuel_required_input_three() {
-        assert_eq!(654, fuel_required(1969))
+        assert_eq!(654, fuel_required(1969));
     }
     #[test]
     fn test_fuel_required_input_four() {
-        assert_eq!(33583, fuel_required(100756))
+        assert_eq!(33583, fuel_required(100756));
     }
 }
 
