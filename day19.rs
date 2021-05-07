@@ -24,6 +24,8 @@ Y .....####.
 mod tests {
     
     use super::*;
+    
+  
   
     #[test]
     fn test_true() {
@@ -32,5 +34,10 @@ mod tests {
     #[test]
     fn test_equal() {
       assert_eq!(0, 0);
+    }
+  
+    #[test]
+    fn test_equal() {
+      assert!(true);
     }
 }
