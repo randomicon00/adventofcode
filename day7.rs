@@ -33,7 +33,10 @@ mod tests {
   use super::*;
   
   fn test_equal() {
+    assert!(true);
+  }
+  
+  fn test_equal() {
     assert_eq!(true, true);
   }
-
 }
