@@ -22,6 +22,6 @@ mod tests {
   
     #[test]
     fn test_input() {
-      assert_eq!(true, true);
+      assert_eq!("my input", "my input");
     }
 }
