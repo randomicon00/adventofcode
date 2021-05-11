@@ -1,3 +1,4 @@
+//TODO: add problem input
 fn main() {
   println!("Hello day 8!")
 }
