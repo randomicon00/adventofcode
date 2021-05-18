@@ -130,9 +130,7 @@ fn day10_solution(input: &str) {
         
         println!("Bottom right: ({},{})", pos_x, pos_y);
         println!("");
-    }
-    println!("Increment y 2--------------------------------");
-    
+    }    
     println!("Increment x 2--------------------------------");
     for (i, _) in ((x4+1)..(end2)).enumerate() {
         let (pos_x, pos_y) = (x4 + (i+1)*2, y4 + (i + 1) ); 
