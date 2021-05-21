@@ -138,9 +138,4 @@ mod tests {
     fn test_equal() {
         assert_eq!(true, true);
     }
-  
-    #[test]
-    fn test_solution() {
-        assert!(true);
-    }
 }
