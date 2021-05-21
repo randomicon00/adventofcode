@@ -186,10 +186,10 @@ mod tests {
       assert_eq!(true, true);
     }
   
-    #[test]
+    /*#[test]
     fn test_displays_input() {
         assert!(true);
-    }
+    }*/ 
  
   
 }
