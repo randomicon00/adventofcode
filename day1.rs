@@ -26,7 +26,7 @@ mod tests {
     }
   
     #[test]
-    fn test_fuel_required_input1() {
+    fn test_fuel_required_input_one() {
         assert_eq!(2, fuel_required(12));
     }
     #[test]
