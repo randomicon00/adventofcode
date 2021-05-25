@@ -1,8 +1,8 @@
 fn day10_solution(input: &str) {
     
     const SIZE: usize = 5;
-    const SHARP = "#";
-    const POINT = ".";
+    const SHARP = '#';
+    const POINT = '.';
     let mut offset = 0;
     let mut asteroids_arr: [[&str; SIZE]; SIZE] = [[""; SIZE]; SIZE];
     let mut asteroids: Vec<(usize, usize)> = Vec::new(); 
