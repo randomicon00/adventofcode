@@ -34,13 +34,6 @@ fn day10_solution(input: &str) {
     //Remove one and add one (top left)
     //Include 'Add 0.5 and 2' and so on.
     
-    /*for i in asteroids_arr.iter() {
-        println!("asteroids are: {:?}", i);
-    }
-    for asteroid in asteroids {
-        println!("asteroids location {:?}", asteroid);
-    }*/
-    
     let two_dim = [[0, 1, 1], [0, 1, 1], [0, 1, 1]];
     println!("Single elem is {}", &two_dim[2][0]);
     
