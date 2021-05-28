@@ -11,9 +11,9 @@ fn main() {
   
   for i in 0..a.len() {
     if val[i] >= 0 {
-      println!("Positive Value, Index is: {}- Value at Index is: {}", i, val[i]);  
+      println!("{}- Value at Index is: +{}", i, val[i]);  
     } else {
-      println!("Negative Value, Index is: {}- Value at Index is: {}", i, val[i]);  
+      println!("{}- Value at Index is: -{}", i, val[i]);  
     }
   }
 }
