@@ -1,4 +1,5 @@
 /*
+Sample entry data
 <x=16, y=-11, z=2>
 <x=0, y=-4, z=7>
 <x=6, y=4, z=-10>
