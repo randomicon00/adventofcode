@@ -21,10 +21,10 @@ fn main() {
 mod tests {
     use super::*;
     
-    #[test]
+    /*#[test]
     fn test_eq() {
       assert!(true);
-    }
+    }*/
   
     #[test]
     fn test_fuel_required_input_one() {
