@@ -4,7 +4,7 @@ What is the Y value of the first packet sent to address 255?
 */
 
 fn main() {
-  let input = ""; 
+  
   println!("Day 23 advent of code solution.");
   println!("TODO display the input data for day 23 problem");
 }
@@ -12,7 +12,7 @@ fn main() {
 #[cfg(test)]
 mod tests {
     
-    use super::*;
+    
   
     #[test]
     fn test_true() {
