@@ -100,10 +100,11 @@ deal with increment 11
 cut 3255
 deal with increment 20
 cut -5914";
- 
+  
+  println!("Welcome advent of code day 22");
+  
   for (i, line) in input.lines().enumerate() {
-    println!("Advent of code day 22:
-      line: {}, content: {}", i, line);
+    println!("line: {}, content: {}", i, line);
   }
 }
 
