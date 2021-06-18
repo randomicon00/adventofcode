@@ -21,6 +21,6 @@ mod tests {
     
     #[test]
     fn test_equal() {
-        assert_eq!(true, true);
+        assert_eq!(1, 1);
     }
 }
