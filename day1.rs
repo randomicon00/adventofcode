@@ -1,12 +1,11 @@
 /// Advent of code problem's 1 solution
+/// For example:
+/// For a mass of 12, divide by 3 and round down to get 4, then subtract 2 to get 2.
+/// For a mass of 14, dividing by 3 and rounding down still yields 4, so the fuel required is also 2.
+/// For a mass of 1969, the fuel required is 654.
+/// For a mass of 100756, the fuel required is 33583.
+/// Valid & tested solution 
 
-/* For example:
- For a mass of 12, divide by 3 and round down to get 4, then subtract 2 to get 2.
- For a mass of 14, dividing by 3 and rounding down still yields 4, so the fuel required is also 2.
- For a mass of 1969, the fuel required is 654.
- For a mass of 100756, the fuel required is 33583.
- Valid & tested solution 
-*/
 
 /// Compute the fuel required.
 fn fuel_required(mass: usize) -> usize {
@@ -18,7 +17,7 @@ fn main() {
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
 }
 
-//Tests for the code problem number 1
+
 #[cfg(test)]
 mod tests {
     use super::*;
