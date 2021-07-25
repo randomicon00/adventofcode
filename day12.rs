@@ -1,3 +1,4 @@
+//Solution to the advent of code 12 problem
 /*
 Sample input data
 <x=16, y=-11, z=2>
