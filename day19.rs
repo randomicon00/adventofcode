@@ -1,3 +1,4 @@
+//Advent of code solution to day 19 problem
 fn main() {
   let input = r"       X
   0->      9
