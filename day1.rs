@@ -7,6 +7,7 @@
 /// Valid & tested solution 
 
 /// Compute the quantity of fuel required.
+// TODO use u32 instead.
 fn fuel_required(mass: usize) -> usize {
   (mass/3) - 2
 }
