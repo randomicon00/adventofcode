@@ -4,7 +4,7 @@
 /// For a mass of 14, dividing by 3 and rounding down still yields 4, so the fuel required is also 2.
 /// For a mass of 1969, the fuel required is 654.
 /// For a mass of 100756, the fuel required is 33583.
-/// Valid & tested solution 
+/// Valid & tested solution
 
 /// Compute the quantity of fuel required.
 // TODO use u32 instead.
@@ -13,6 +13,7 @@ fn fuel_required(mass: usize) -> usize {
 }
 
 ///Program's entry point
+// TODO use broader test cases for better coverage. (Also apply to all solution).
 fn main() {
   let mass = 12;
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
