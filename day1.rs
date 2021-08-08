@@ -5,7 +5,6 @@
 /// For a mass of 1969, the fuel required is 654.
 /// For a mass of 100756, the fuel required is 33583.
 /// Valid & tested solution
-
 /// Compute the quantity of fuel required.
 // TODO use u32 instead.
 fn fuel_required(mass: usize) -> usize {
