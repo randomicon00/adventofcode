@@ -11,7 +11,6 @@ fn fuel_required(mass: usize) -> usize {
 }
 
 ///Program's entry point
-// TODO use broader test cases for better coverage. (Also apply to all solution).
 fn main() {
   let mass = 12;
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
