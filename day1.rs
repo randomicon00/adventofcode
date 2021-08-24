@@ -10,7 +10,7 @@ fn fuel_required(mass: usize) -> usize {
   (mass/3) - 2
 }
 
-///Program's entry point
+// Program's entry point
 fn main() {
   let mass = 12;
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
