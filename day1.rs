@@ -7,7 +7,7 @@
 // Valid & tested solution
 // Compute the quantity of fuel required.
 fn fuel_required(mass: usize) -> usize {
-  (mass/3) - 2
+  mass/3 - 2
 }
 
 fn main() {
