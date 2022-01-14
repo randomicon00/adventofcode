@@ -6,6 +6,8 @@
 // For a mass of 100756, the fuel required is 33583.
 // Valid & tested solution
 // Compute the quantity of fuel required.
+
+// Solution
 fn fuel_required(mass: usize) -> usize {
   mass/3 - 2
 }
