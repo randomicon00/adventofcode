@@ -19,7 +19,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::fuel_required;
   
     #[test]
     fn test_fuel_required_input_one() {
