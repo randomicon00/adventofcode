@@ -1,3 +1,4 @@
+///Advent of code day 20 solution.
 fn main() {
   let input = "                                          I     U       O   M           N     O       S                                         
                                            X     T       X   C           D     N       A                                         
