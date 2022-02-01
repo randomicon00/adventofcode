@@ -8,7 +8,8 @@
 // Valid & tested solution
 // Compute the quantity of fuel required.
 
-// Solution
+
+// Solution. Status: Completed and tested.
 fn fuel_required(mass: usize) -> usize {
   mass/3 - 2
 }
