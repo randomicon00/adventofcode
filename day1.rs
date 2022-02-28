@@ -8,7 +8,6 @@
 // Valid & tested solution
 // Compute the quantity of fuel required.
 
-
 // Solution. 
 fn fuel_required(mass: usize) -> usize {
   mass/3 - 2
@@ -21,7 +20,7 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::fuel_required;
+    use super::*;
   
     #[test]
     fn test_fuel_required_input_one() {
@@ -40,4 +39,3 @@ mod tests {
         assert_eq!(33583, fuel_required(100756));
     }
 }
-
