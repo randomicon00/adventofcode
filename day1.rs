@@ -8,19 +8,19 @@
 // Valid & tested solution
 // Compute the quantity of fuel required.
 
-// Solution. 
 fn fuel_required(mass: usize) -> usize {
-  mass/3 - 2
+  mass / 3 - 2
 }
 
 fn main() {
   let mass = 12;
+  
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
 }
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::fuel_required;
   
     #[test]
     fn test_fuel_required_input_one() {
