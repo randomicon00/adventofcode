@@ -17,12 +17,17 @@ fn main() {
   let mass = 12;
   
   println!("Fuel required when mass is {}, is: {}", mass, fuel_required(mass));
+  
+  // More examples
+  for mass_item in [14, 30, 1969, 100756] {
+    println!("Fuel required when mass is {}, is {}", mass_item , fuel_required(mass_item));  
+  }                        
 }
 
 #[cfg(test)]
 mod tests {
     use super::fuel_required;
-  
+
     #[test]
     fn test_fuel_required_input_one() {
         assert_eq!(2, fuel_required(12));
