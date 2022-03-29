@@ -14,31 +14,22 @@ Y .....####.
  9........##
  ";
   
-  println!("Advent of code day 19:
-      {}", input);
+  println!("Advent of code day 19: {}", input);
   for line in input.lines() {
-    println!("{}", line);
+    println!("line {},", line);
   }
 }
 
 #[cfg(test)]
 mod tests {
-    
-    use super::*;
-    
-  
   
     #[test]
     fn test_true() {
         assert!(true);
     }
-    #[test]
-    fn test_equal() {
-      assert_eq!(0, 0);
-    }
   
     #[test]
     fn test_equal() {
-      assert!(true);
+      assert_eq!(0, 0);
     }
 }
