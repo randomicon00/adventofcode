@@ -1,3 +1,3 @@
 # Solutions to the 2019 advent of code series.
 
-## Work in progress. TBD in February 2022.
+## Work in progress.
