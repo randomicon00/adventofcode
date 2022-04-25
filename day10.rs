@@ -1,4 +1,4 @@
-/// Day 10 Solution
+/// Day 10 Solution Advent of code 
 fn day10_solution(input: &str) {   
     const SIZE: usize = 5;
     const SHARP = '#';
