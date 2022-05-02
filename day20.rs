@@ -1,4 +1,4 @@
-///Advent of code day 20 solution.
+/// Adventofcode day 20 solution.
 fn main() {
   let input = "                                          I     U       O   M           N     O       S                                         
                                            X     T       X   C           D     N       A                                         
@@ -122,8 +122,7 @@ RX..#.#.#.....#.#.#.#.#.....#.#....GN                                           
                                        Z       A         R A       F Q           R       P                                       
                                        R       D         B A       K G           D       G";
   
-  println!("Hello world advent of code 20, 
-    {}", input);
+  println!("Hello world advent of code 20, {}", input);
 }
 
 #[cfg(test)]
