@@ -1,4 +1,5 @@
-/// Day 10 Solution Advent of code 
+/// Day 10 Solution Advent of code
+
 fn day10_solution(input: &str) {   
     const SIZE: usize = 5;
     const SHARP = '#';
@@ -129,8 +130,7 @@ fn main() {
     day10_solution(asteroids_pos);
 }
 
-// (TODO): write at least the tests that would validate 
-// the use cases in the problem's statement.
+// (TODO): write at least the tests that would pass the use cases in the problem's statement.
 #[cfg(test)]
 mod tests {
     use super::day_10_solution;
