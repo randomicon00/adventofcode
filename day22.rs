@@ -1,6 +1,4 @@
-//TODO Generate test data.
-fn main() { 
-  
+fn main() {   
   let input = "cut -7812
 deal with increment 55
 cut -3909
