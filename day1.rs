@@ -6,13 +6,12 @@
 /// For a mass of 1969, the fuel required is 654.
 /// For a mass of 100756, the fuel required is 33583.
 
-// Valid & tested solution
-// Compute the quantity of fuel required.
-
+/// Compute the quantity of fuel required.
 fn fuel_required(mass: usize) -> usize {
   mass / 3 - 2
 }
 
+/// Entry point of the program
 fn main() {
   let mass = 12;
   
