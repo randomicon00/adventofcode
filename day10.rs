@@ -1,4 +1,4 @@
-/// Day 10 Solution Advent of code
+/// Day 10 Solution Advent of code (complete)
 
 fn day10_solution(input: &str) {   
     const SIZE: usize = 5;
